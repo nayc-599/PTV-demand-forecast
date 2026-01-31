@@ -4,7 +4,6 @@ library(dplyr)
 library(forecast)
 library(shiny)
 library(bslib)
-library(styler)
 
 load_data <- function() {
   resource_id <- "2606a765-88f0-41c9-9b7c-76d3f2626a67"
