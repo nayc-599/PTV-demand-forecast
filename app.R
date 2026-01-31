@@ -25,7 +25,10 @@ ui <- fluidPage(
   sidebarLayout(
     sidebarPanel(
       selectInput("mode", "Choose Transport Mode", choices = levels(df$Mode)),
-      sliderInput("h", "Forecast horizon (months):", min = 1, max = 36, value = 24)
+      sliderInput("h", "Forecast horizon (months):",
+        min = 1,
+        max = 36, value = 24
+      )
     ),
     mainPanel(
       uiOutput("forecastTitle"),
