@@ -1,5 +1,5 @@
 plot_ets <- function(fc, mode_name, ts_full) {
-  plot(fc, xlab = "Year", ylab = "Passengers")
+  plot(fc, main="" ,xlab = "Year", ylab = "Passengers")
   lines(ts_full, col = "black")
 
   last_index <- length(ts_full)
