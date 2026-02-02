@@ -12,7 +12,7 @@ remove_outliers <- function(mode){
   ts_clean <- ts_full
   ts_clean[outlier_full == 1] <- NA
 
-  return (ts_clean)
+  return (list(ts_clean = ts_clean, ts_full = ts_full))
 }
 
 train_models <- function(train) {
@@ -41,7 +41,9 @@ best_model <- function(rmse_values) {
 }
 
 forecast_best_model <- function(mode, h){
-  ts_clean <- remove_outliers(mode)
+  res <- remove_outliers(mode)
+  ts_clean <- res$ts_clean
+  ts_full <- res$ts_full
 
   train <- window(ts_clean, end = c(2023, 9))
   test <- window(ts_clean, start = c(2023, 10))
