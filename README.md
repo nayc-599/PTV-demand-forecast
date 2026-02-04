@@ -19,6 +19,7 @@ This project supports transport planners in making data-driven resource utilisat
    `git clone https://github.com/nayc-599/PTV-demand-forecast.git`
 3. Open an R session in the project root (PTV-demand-forecast).
 4. Install required packages.
+
    `install.packages(c(
   "httr",
   "jsonlite",
@@ -28,6 +29,7 @@ This project supports transport planners in making data-driven resource utilisat
   "bslib"
 ))` 
 5. Run the Shiny App.
+
    `shiny::runApp("dashboard")`
 
 ## Data Source
