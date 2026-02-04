@@ -14,10 +14,11 @@ This project supports transport planners in making data-driven resource utilisat
 - Interactive Dashboard: Dynamic visualisations allow planners to explore historical trends, forecast scenarios, and capacity planning.
 
 ## Installation
-1. Clone the repository;
+1. Clone the repository.
+
    `git clone https://github.com/nayc-599/PTV-demand-forecast.git`
-2. Open an R session in the project root (PTV-demand-forecast).
-3. Install required packages.
+3. Open an R session in the project root (PTV-demand-forecast).
+4. Install required packages.
    `install.packages(c(
   "httr",
   "jsonlite",
@@ -26,7 +27,7 @@ This project supports transport planners in making data-driven resource utilisat
   "shiny",
   "bslib"
 ))` 
-4. Run the Shiny App.
+5. Run the Shiny App.
    `shiny::runApp("dashboard")`
 
 ## Data Source
