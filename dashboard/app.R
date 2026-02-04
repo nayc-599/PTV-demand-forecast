@@ -1,7 +1,7 @@
-source("dashboard/wrapper/make_ts_object.R")
-source("dashboard/wrapper/forecast_best_model.R")
-source("dashboard/wrapper/plot_forecast.R")
-source("dashboard/wrapper/data_prep.R")
+source("wrapper/make_ts_object.R")
+source("wrapper/forecast_best_model.R")
+source("wrapper/plot_forecast.R")
+source("wrapper/data_prep.R")
 
 df <- load_data()
 
