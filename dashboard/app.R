@@ -61,3 +61,5 @@ server <- function(input, output, session) {
     res$accuracy[, c("ME", "RMSE", "MAE", "MAPE")]
   })
 }
+
+shinyApp(ui = ui, server = server)
