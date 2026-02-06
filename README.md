@@ -20,7 +20,7 @@ This enables more efficient utilisation of rolling **stock, fleet, and operation
 - **Forecastig Across Models**: Predicts passenger demand specific to each mode — train, tram, and bus — over multi-year horizon.
 - **Seasonality and Trend Analysis**: Identifies recurring peak periods and low-demand intervals to guide proactive planning.
 - **Automated Model Selection**: Selects best model between ETS and TBATS time series models based on RMSE values for reliable forcasts.
-- **Interactive Dashboard**: Dynamic visualisations allow planners to explore historical trends, forecast scenarios, and capacity planning.
+- **Interactive Dashboard**: Dynamic visualisations with mode selection and model performance table.
 
 ## Tech Stack
 - R: Data wrangling, feature engineering and model development
