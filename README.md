@@ -1,5 +1,8 @@
 # PTV Demand Forecast Dashboard
-Project Status: On-hold
+![Status](https://img.shields.io/badge/Status-Complete-success)
+![R](https://img.shields.io/badge/R-4.3+-blue)
+![Shiny](https://img.shields.io/badge/Shiny-1.9+-red)
+![License](https://img.shields.io/badge/License-MIT-green)
 
 ## Brief Description
 An end-to-end forecasting pipeline for PTV demand using API integration, automated best-model selection and dyanmic data visualisations built in R to support data-driven resource allocations.
