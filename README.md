@@ -72,13 +72,15 @@ This enables more efficient utilisation of rolling **stock, fleet, and operation
     ├── data
     │   └── monthly_average_patronage_by_day_type_and_by_mode.csv
     ├── screenshots
-    │   └──img1.png
+    │   ├── img1.png
+    │   └── img2.png
     ├── README.md
     └── .gitignore
  ```
 
 ## Dashboard Screenshot
 <img width="1501" height="811" alt="img1" src="https://github.com/user-attachments/assets/1aa89be7-7aa3-44b4-a494-e2fca6f8e9a4" />
+<img width="1501" height="827" alt="img2" src="https://github.com/user-attachments/assets/0c588a6c-45d7-4e5c-bb81-6cd1dba333da" />
 
 ## Future Improvements
 - Experiment with more models (Prophet, VAR, XGBoost)
