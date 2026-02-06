@@ -60,6 +60,23 @@ This enables more efficient utilisation of rolling **stock, fleet, and operation
 - **Continuous**: Daily passenger demand
 - **Distribution**: Varies by mode and day type
 
+## Project Structure
+ ```
+    ├── dashboard
+    │   └── wrapper
+    │      ├── data_prep.R
+    │      ├── forecast_best_model.R
+    │      ├── make_ts_object.R
+    │      └── plot_forecast.R
+    │   └── app.R
+    ├── data
+    │   └── monthly_average_patronage_by_day_type_and_by_mode.csv
+    ├── screenshots
+    │   └──img1.png
+    ├── README.md
+    └── .gitignore
+ ```
+
 ## Dashboard Screenshot
 <img width="1501" height="811" alt="img1" src="https://github.com/user-attachments/assets/1aa89be7-7aa3-44b4-a494-e2fca6f8e9a4" />
 
