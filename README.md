@@ -80,5 +80,40 @@ This enables more efficient utilisation of rolling **stock, fleet, and operation
 ## Dashboard Screenshot
 <img width="1501" height="811" alt="img1" src="https://github.com/user-attachments/assets/1aa89be7-7aa3-44b4-a494-e2fca6f8e9a4" />
 
+## Future Improvements
+- Experiment with more models (Prophet, VAR, XGBoost)
+- Add a page for real VS model prediction
+- Experiment with deep leaning models
+- Experiment best-model selection with CV scores
+
+## Contributing
+Contributions, issues and features requests are welcome!
+
+### How to contribute
+1. Fork the repository.
+2. Create feature branch.
+   ```bash
+   git checkout -b feature/SomeFeature
+   ```
+3. Commit changes.
+    ```bash
+    git commit -m 'Add some feature'
+    ```
+    
+4. Push to branch.
+    ```bash
+    git push feature/SomeFeature
+    ```
+   
+5. Open a Pull Request.
+  
+## Licence
+MIT
+
+## Author
+- GitHub: [@nayc-599](https://github.com/nayc-599)
+- Email: naychi1301@gmail.com
+
+
 ## Acknowledgement
 - Monthly average patronage by day type and mode, provided by Public Transport Victoria: https://discover.data.vic.gov.au/dataset/monthly-average-patronage-by-day-type-and-by-mode￼
