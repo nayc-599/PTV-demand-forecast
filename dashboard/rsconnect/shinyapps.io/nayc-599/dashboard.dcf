@@ -1,0 +1,10 @@
+name: dashboard
+title:
+username: nayc-599
+account: nayc-599
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 16609100
+bundleId: 11543967
+url: https://nayc-599.shinyapps.io/dashboard/
+version: 1
