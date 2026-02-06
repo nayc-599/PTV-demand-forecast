@@ -35,7 +35,7 @@ This enables more efficient utilisation of rolling **stock, fleet, and operation
 2. Open an R session in the project root (PTV-demand-forecast):
 3. Install required packages:
 
-   ```
+   `
    install.packages(c(
   "httr",
   "jsonlite",
@@ -43,7 +43,7 @@ This enables more efficient utilisation of rolling **stock, fleet, and operation
   "forecast",
   "shiny",
   "bslib"
-))```
+))`
 4. Run the Shiny App:
 
    `shiny::runApp("dashboard")`
